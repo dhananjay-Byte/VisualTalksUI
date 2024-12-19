@@ -1,0 +1,11 @@
+.sliding-div {
+    
+    position: relative; /* To ensure transform works as expected */
+    transform: translateX(100%); /* Start off the screen to the right */
+    transition: transform 0.5s ease-in-out; /* Animation duration and easing */
+  }
+  
+  .sliding-div.active {
+    transform: translateX(0); /* Final position */
+  }
+  
